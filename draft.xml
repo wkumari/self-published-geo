@@ -115,10 +115,10 @@
       conference location to the next have already experimentally published
       small geolocation feeds.</t>
 
-      <t>This document describes a currently deployed system / format. At
+      <t>This document describes a currently deployed system format. At
 	least one consumer (Google) has incorporated these feeds into a
 	geolocation data pipeline, and a significant number of ISPs are
-	using it to inform them where their prefixes live.</t>
+	using it to inform them where their prefixes should be geolocated.</t>
 
       <t>[RFC Ed - Please remove publication: The IETF Meeting network
       currently publishes a feed in this format at:
@@ -164,10 +164,10 @@
         to update or merge with other geolocation data sources and
         procedures.</t>
 
-     <t>This document describes a currently deployed system / format. At
+     <t>This document describes a currently deployed format. At
         least one consumer (Google) has incorporated these feeds into a
         geolocation data pipeline, and a significant number of ISPs are
-        using it to inform them where their prefixes live.</t>
+        using it to inform them where their prefixes should be geolocated.</t>
       </section>
 
       <section title="Requirements notation">
