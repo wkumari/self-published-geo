@@ -113,9 +113,12 @@
 
       <t>Some technical organizations operating networks that move from one
       conference location to the next have already experimentally published
-      small geolocation feeds. At least one consumer (Google) has incorporated
-      these ad hoc feeds into a geolocation data pipeline, and is using it to
-      allow ISPs to inform them where the prefixes live.</t>
+      small geolocation feeds.</t>
+
+      <t>This document describes a currently deployed system / format. At
+	least one consumer (Google) has incorporated these feeds into a
+	geolocation data pipeline, and a significant number of ISPs are
+	using it to inform them where their prefixes live.</t>
 
       <t>[RFC Ed - Please remove publication: The IETF Meeting network
       currently publishes a feed in this format at:
@@ -161,10 +164,10 @@
         to update or merge with other geolocation data sources and
         procedures.</t>
 
-        <t>Some technical organizations operating networks that move from one
-        conference location to the next have already experimentally published
-        small geolocation feeds. At least one consumer (Google) has
-        incorporated these ad hoc feeds into a geolocation data pipeline.</t>
+     <t>This document describes a currently deployed system / format. At
+        least one consumer (Google) has incorporated these feeds into a
+        geolocation data pipeline, and a significant number of ISPs are
+        using it to inform them where their prefixes live.</t>
       </section>
 
       <section title="Requirements notation">
