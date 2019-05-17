@@ -5,12 +5,12 @@
 Network Working Group                                           E. Kline
 Internet-Draft                                                  Loon LLC
 Intended status: Experimental                                  K. Duleba
-Expires: November 17, 2019                                   Z. Szamonek
+Expires: November 18, 2019                                   Z. Szamonek
                                                                 S. Moser
                                                  Google Switzerland GmbH
                                                                W. Kumari
                                                                   Google
-                                                            May 16, 2019
+                                                            May 17, 2019
 
 
             A Format for Self-published IP Geolocation Feeds
@@ -29,8 +29,8 @@ Abstract
    conference location to the next have already experimentally published
    small geolocation feeds.
 
-   This document describes a currently deployed system format.  At least
-   one consumer (Google) has incorporated these feeds into a geolocation
+   This document describes a currently deployed format.  At least one
+   consumer (Google) has incorporated these feeds into a geolocation
    data pipeline, and a significant number of ISPs are using it to
    inform them where their prefixes should be geolocated.
 
@@ -53,7 +53,7 @@ Abstract
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 1]
+Kline, et al.           Expires November 18, 2019               [Page 1]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -73,7 +73,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on November 17, 2019.
+   This Internet-Draft will expire on November 18, 2019.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 2]
+Kline, et al.           Expires November 18, 2019               [Page 2]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -165,7 +165,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 3]
+Kline, et al.           Expires November 18, 2019               [Page 3]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -221,7 +221,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 4]
+Kline, et al.           Expires November 18, 2019               [Page 4]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -277,7 +277,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 5]
+Kline, et al.           Expires November 18, 2019               [Page 5]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -333,7 +333,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 6]
+Kline, et al.           Expires November 18, 2019               [Page 6]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -389,19 +389,20 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019               [Page 7]
+Kline, et al.           Expires November 18, 2019               [Page 7]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
-# IETF 104, March 2019 - Prague, CZ.
-# Note that Prague changed from CZ-PR to CZ-10 2016-11-15 - https://www.iso.org/obp/ui/#iso:code:3166:CZ
-130.129.0.0/16,CZ,CZ-10,Prague,
-2001:df8::/32,CZ,CZ-10,Prague,
-31.133.128.0/18,CZ,CZ-10,Prague,
-31.130.224.0/20,CZ,CZ-10,Prague,
-2001:67c:1230::/46,CZ,CZ-10,Prague,
-2001:67c:370::/48,CZ,CZ-10,Prague,
+   # IETF 104, March 2019 - Prague, CZ.
+   # Note that Prague changed from CZ-PR to CZ-10 2016-11-15
+   # https://www.iso.org/obp/ui/#iso:code:3166:CZ
+   130.129.0.0/16,CZ,CZ-10,Prague,
+   2001:df8::/32,CZ,CZ-10,Prague,
+   31.133.128.0/18,CZ,CZ-10,Prague,
+   31.130.224.0/20,CZ,CZ-10,Prague,
+   2001:67c:1230::/46,CZ,CZ-10,Prague,
+   2001:67c:370::/48,CZ,CZ-10,Prague,
 
    Experimentally, RIPE has published geolocation information for their
    conference network prefixes, which change location in accordance with
@@ -444,8 +445,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-
-Kline, et al.           Expires November 17, 2019               [Page 8]
+Kline, et al.           Expires November 18, 2019               [Page 8]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -484,7 +484,8 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
    implementation exists.
 
    The authors are planning on writing a new document describing such a
-   new format.  The current document describes a deployed system.
+   new format.  The current document describes a currently deployed and
+   used format.
 
 3.  Consuming self-published IP geolocation feeds
 
@@ -500,8 +501,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-
-Kline, et al.           Expires November 17, 2019               [Page 9]
+Kline, et al.           Expires November 18, 2019               [Page 9]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -557,7 +557,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 10]
+Kline, et al.           Expires November 18, 2019              [Page 10]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -613,7 +613,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 11]
+Kline, et al.           Expires November 18, 2019              [Page 11]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -669,7 +669,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 12]
+Kline, et al.           Expires November 18, 2019              [Page 12]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -725,7 +725,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 13]
+Kline, et al.           Expires November 18, 2019              [Page 13]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -781,7 +781,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 14]
+Kline, et al.           Expires November 18, 2019              [Page 14]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -837,7 +837,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 15]
+Kline, et al.           Expires November 18, 2019              [Page 15]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -893,7 +893,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 16]
+Kline, et al.           Expires November 18, 2019              [Page 16]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -949,7 +949,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 17]
+Kline, et al.           Expires November 18, 2019              [Page 17]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1005,7 +1005,7 @@ class IPGeoFeedValidator(object):
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 18]
+Kline, et al.           Expires November 18, 2019              [Page 18]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1061,7 +1061,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 19]
+Kline, et al.           Expires November 18, 2019              [Page 19]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1117,7 +1117,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 20]
+Kline, et al.           Expires November 18, 2019              [Page 20]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1173,7 +1173,7 @@ def main():
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 21]
+Kline, et al.           Expires November 18, 2019              [Page 21]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1229,7 +1229,7 @@ class IPGeoFeedValidatorTest(object):
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 22]
+Kline, et al.           Expires November 18, 2019              [Page 22]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1285,7 +1285,7 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 23]
+Kline, et al.           Expires November 18, 2019              [Page 23]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1341,7 +1341,7 @@ Authors' Addresses
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 24]
+Kline, et al.           Expires November 18, 2019              [Page 24]
 
 Internet-Draft         Self-published IP Geofeeds               May 2019
 
@@ -1397,4 +1397,4 @@ Internet-Draft         Self-published IP Geofeeds               May 2019
 
 
 
-Kline, et al.           Expires November 17, 2019              [Page 25]
+Kline, et al.           Expires November 18, 2019              [Page 25]
